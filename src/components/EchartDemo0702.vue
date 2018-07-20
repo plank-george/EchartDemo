@@ -1,5 +1,9 @@
 <template>
-    <div id="echartCont" ref="echartcont" style="width:600px;height:400px;" >
+    <div>
+        <div id="echartCont" ref="echartcont" style="width:600px;height:400px;" >
+        </div>
+        <div id="echartMap" ref="echartMap" style="width:600px;height:400px;" >
+        </div>
     </div>
 </template>
 <script type="text/ecmascript-6">

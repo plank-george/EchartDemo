@@ -136,12 +136,12 @@ a .logo {
 </style>
 
 <script>
-import listservice from '../services/dataservice'
+import dataservice from '../services/chartDataService'
 export default {
   methods: {
     logout () {
       var v = this
-      listservice.dataRouter('logout').then(function () {
+      dataservice.dataRouter('logout').then(function () {
         v.$cookies.remove('UserId')
         v.$cookies.remove('UserName')
         v.$router.push('login')
