@@ -37,6 +37,9 @@ module.exports = {
     'eol-last':'off',
     'no-multi-spaces':'off',
     'comma-dangle':'off',
-    'no-trailing-spaces':'off'
+    'no-trailing-spaces':'off',
+    'semi':'off',
+    'object-curly-spacing':'off',
+    'standard/object-curly-even-spacing':'off'
   }
 }
